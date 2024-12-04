@@ -17,6 +17,10 @@ output "my_route_table_association" {
   value       = aws_route_table_association.my-route-association.id
 }
 
-output "key_pair_fingerprint" {
+output "key_name" {
   value       = aws_key_pair.vm_ssh_key.id
+}
+
+output "security_group_id_array" {
+  value = aws_security_group.open_ports.*.id
 }
