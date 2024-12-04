@@ -1,0 +1,4 @@
+resource "aws_key_pair" "vm_ssh_key" {
+key_name = "student.1-vm-key"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDZUfUrUHXGZR8QQsH+yKYNjoYGk+c2UN5Svky2YPzS7TTZJumGsnePkcs/YCK1K5Rz0yGHV0ztzysncyIVFejcUbj8GMQbchdyhghDWA/L6KokO5HGOJ0vcv1q5cGpDMY42RI5erJQtB2v1rr++maQgoAMHwgPTEBkYKGXWvQ0NuTy1jt5i1tYTDMeH+1L5hMAqltA4Ii6hh6hx8WW7lte6xw2n+kLRMf2T8mK/OCeDZoZ5lzNLQSWO9gUrk+nNzwJ4BTFQL/dKmgTQZewBuTSaVc8EEg36TU8ZkcL2yyOnoL5F/3jM+e5L0Zse45ahs7V0f4qswhdK/JNUWafDZNWzzZf63F2KRfRh85q4x88cN//u02Dh/PMnookMQjOhUNA69RphNYE2sp2EfR5UpKhsnI2jfMo+M3crXBKU6wlpVeedKFzsbcAtWKMkMP3AypyD/N4j2VNsNkJLJSZaCrQ4X5GhKQoDYkMU1TMxafED4TufP8DlBK/NobXfywFG9U= varun@AerinIT-CPU-101"
+}
