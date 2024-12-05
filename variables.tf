@@ -39,5 +39,5 @@ variable "aws_security_group" {
 }
 
 variable "key_name" {
- default = "student.1-vm-key"
+ default = "student.1-vm.key"
 }
