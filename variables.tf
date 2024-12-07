@@ -1,11 +1,11 @@
 #Providers 
 
 variable "region" {
- default = "ap-south-1"
+ default = "us-east-1"
 }
 
 variable "profile" {
- default = "student.1"
+ default = "student.3"
 }
 
 #Networks
@@ -15,29 +15,29 @@ variable "vpc_cidr_block" {
 }
 
 variable "vpc_name" {
- default = "student.1-vpc" 
+ default = "student.3-vpc" 
 }
 
-variable "subnet-1_name"{
- default = "student.1-subnet-1"
+variable "subnet-3_name"{
+ default = "student.3-subnet-1"
 }
 
-variable "subnet-1_cidr_block" {
+variable "subnet-3_cidr_block" {
  default = "10.22.0.0/24"
 }
 
 variable "igw_name"{
- default = "student.1-igw"
+ default = "student.3-igw"
 }
 
 variable "route_table_name" {
- default = "student.1-route-table"
+ default = "student.3-route-table"
 }
 
 variable "aws_security_group" {
- default =  "student.1-security-group"
+ default =  "student.3-security-group"
 }
 
 variable "key_name" {
- default = "student.1-vm.key"
+ default = "student.3-vm.key"
 }

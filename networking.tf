@@ -8,10 +8,10 @@ tags = {
 
 resource "aws_subnet" "subnet-1" {
   vpc_id = aws_vpc.main-vpc.id
-  cidr_block = var.subnet-1_cidr_block
+  cidr_block = var.subnet-3_cidr_block
   map_public_ip_on_launch = "true"
   tags = {
-    Name = var.subnet-1_name
+    Name = var.subnet-3_name
   }
 }
 
